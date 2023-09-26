@@ -64,7 +64,7 @@
 <%
 	}else{
 %>
-		<a href="/book/bookInsert.jsp">도서 등록</a>
+		<a href="/BookProject//book/bookInsert.jsp">도서 등록</a>
 		<a href="/BookProject/listBook">도서 목록</a>
 		<a href="/BookProject/logout">로그아웃</a>
 		<b>로그인 사용자 : <%= vo.getUserId() %></b>

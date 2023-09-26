@@ -26,7 +26,7 @@ pageEncoding="UTF-8"%>
 			<td> <%= data.getAuthor() %> </td>
 			<td> <%= data.getCompany() %> </td>
 			<td> <%= data.getPrice() %> </td>
-			<td> <a href="#">수정</a> </td>
+			<td> <a href="/UpdateBook?isbn=<%= data.getIsbn()%>">수정</a> </td>
 			<td> <a href="#">삭제</a> </td>
 		</tr>
 <%
